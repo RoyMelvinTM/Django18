@@ -1,3 +1,3 @@
-#PROYECT REFUGE
+PROYECT REFUGE
 ==================
->Proyecto basado en el Curso de Django - version 2018 
+>Proyecto basado en el Curso Python con Django - version 2018 
