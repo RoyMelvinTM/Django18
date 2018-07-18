@@ -1,0 +1,13 @@
+{% extends 'base/base.html' %}
+{% block content %}
+<div class="container">
+	<div class ="jumbotron">
+		<form method="post">
+			{% csrf_token %}
+				<h3>¿Desea Eliminar el Registro de: "{{ object.nombre }}"?</h3>
+				<button class= "btn btn-danger" type="submit">Si, Eliminar</button>
+				<a class="btn btn-primary" href="{% url 'mascota:mascota_listar' %}">Cancelar</a>
+		</form>
+	</div>
+</div>	
+{% endblock %}
