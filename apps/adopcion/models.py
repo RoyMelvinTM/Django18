@@ -13,4 +13,4 @@ class Persona(models.Model):
     direccion = models.CharField(max_length=100)
 
     def __str__(self):
-        return '{} {}'.format(self.nombre, self.nombre)
+        return '{} {}'.format(self.nombre, self.apellidos)
